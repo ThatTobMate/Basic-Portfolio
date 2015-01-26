@@ -27,10 +27,9 @@
   <body>
     <div id="header">
       <nav>
-        <li class="fork"><a href="https://github.com/ThatTobMate/Basic-Portfolio">View On GitHub</a></li>
-        <li class="downloads"><a href="https://github.com/ThatTobMate/Basic-Portfolio/zipball/master">ZIP</a></li>
-        <li class="downloads"><a href="https://github.com/ThatTobMate/Basic-Portfolio/tarball/master">TAR</a></li>
-        <li class="title">DOWNLOADS</li>
+          <div class="contact"><div class="contacticon"><a href="https://github.com/ThatTobMate" target="_blank"><i class="fa fa-github-alt fa-3x"></i></a></div><div class="contacticon"><a href="https://www.linkedin.com/in/tobiashale" target="_blank"><i class="fa fa-linkedin fa-3x"></i>
+          </a></div><div class="contacticon"><a href="mailto:thale.android@gmail.com?subject=From%20personal%20site: &amp;body=Please%20leave%20me%20a%20message%20I%20will%20get%20back%20to%20you%20as%20soon%20as%20possible!"><i class="fa fa-envelope-o fa-3x"></i>
+        </a></div>
       </nav>
     </div><!-- end header -->
 
@@ -38,287 +37,283 @@
 
       <section>
         <div id="title">
-          <h1>Tobias Hale's Portfolio</h1>
-          <p>My Projects</p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/ThatTobMate">ThatTobMate</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
-        </div>
+          <h1>I'm Tobias Hale</h1>
+          <p>I'm a web developer</p>
+      <hr>
+    </div>
+    <p></p>
+    <p>I am currently looking for an exciting new role based in London. I primarily using the following languages and frameworks, but I am always looking to learn more:</p>
 
-        <p>Hi my name is Tobias Hale.</p>
+    <ul>
+      <li>Ruby</li>
+      <li>Ruby on Rails</li>
+      <li>Javascript</li>
+      <li>jQuery</li>
+      <li>AngularJS</li>
+    </ul>
 
-        <p>I am a web developer primarily using the following languages and frameworks:</p>
-
-        <ul>
-          <li>Ruby</li>
-          <li>Ruby on Rails</li>
-          <li>Javascript</li>
-          <li>jQuery</li>
-          <li>AngularJS</li>
-        </ul>
-
-        <p>I started my journey as a developer in June 2014 by completing a 3 month web development course at General Assembly. I followed this up by joining GA as a Teaching Assistant on the next course. I quickly found just how exciting it is being faced with new challenges and trying to come up with solutions to fix problems, not just on your own but also within a great community. I am really excited to get some commercial experience as a developer and work with a great team to help bring my skills forward and be a part of something that millions of people use. Scroll down to view a few of my projects to date:</p>
-      </section>
+    <p>I started my journey as a developer in June 2014 by completing a 3 month web development course at General Assembly. I followed this up by joining GA as a Teaching Assistant on the next course. I quickly found just how exciting it is being faced with new challenges and trying to come up with solutions to fix problems, not just on your own but also within a great community. I am really excited to get some commercial experience as a developer and work with a great team to help bring my skills forward and be a part of something that millions of people use. Scroll down to view a few of my projects to date:</p>
+  </section>
 
 
-      <h1>KickAbout!</h1>
-      <p>My final project during the course, this is a football based application where the user can create or join a team and send challenges to other teams in the league to meet up and play a real match and record the results. Created using Ruby on Rails and AngularJS. Click the image to try it out.</p>
-      <a href="http://immense-headland-7953.herokuapp.com/" target="_blank"><section class="projects kickabout">
+  <h1>KickAbout!</h1>
+  <p>My final project during the course, this is a football based application where the user can create or join a team and send challenges to other teams in the league to meet up and play a real match and record the results. Created using Ruby on Rails and AngularJS. Click the image to try it out.</p>
+  <a href="http://immense-headland-7953.herokuapp.com/" target="_blank"><section class="projects kickabout">
 
-      </section></a>
-      <br>
-      <h1>Reader</h1>
-      <p>This application I created as my second project on the course, it is an RSS reading application where the user can log in, subscribe to news feeds and read articles or bookmark them to read later. Created using Ruby on Rails. Click the image to try it out.</p>
-      <a href="https://mighty-castle-2789.herokuapp.com/" target="_blank"><section class="projects reader">
+  </section></a>
+  <br>
+  <h1>Reader</h1>
+  <p>This application I created as my second project on the course, it is an RSS reading application where the user can log in, subscribe to news feeds and read articles or bookmark them to read later. Created using Ruby on Rails. Click the image to try it out.</p>
+  <a href="https://mighty-castle-2789.herokuapp.com/" target="_blank"><section class="projects reader">
 
-      </section></a>
+  </section></a>
 
-      <br>
-      <h1>Space Invaders</h1>
-      <p>This is something I have been working on recently with the use of online tutorials but also my own initiative. Click the play button to start, use the arrow keys to move and spacebar to shoot. Created using canvas, currently still in progress.</p>
-      <h2 class="life_text">Lives: <span id="lives">3</span></h2>
-      <h1 class="gameover"></h1>
-      <div id="play"><i class="fa fa-play-circle-o fa-5x"></i></div>
-      <script>
+  <br>
+  <h1>Space Invaders</h1>
+  <p>This is something I have been working on recently with the use of online tutorials but also my own initiative. Click the play button to start, use the arrow keys to move and s to shoot. Created using canvas, currently still in progress.</p>
+  <h2 class="life_text">Lives: <span id="lives">3</span></h2>
+  <h1 class="gameover"></h1>
+  <div id="play"><i class="fa fa-play-circle-o fa-5x"></i></div>
+  <script>
 
-      var display, input, frames, spFrame, lvlFrame, lives;
-      var alSprite, taSprite, ciSprite;
-      var aliens, dir, tank, bullets, cities;
+  var display, input, frames, spFrame, lvlFrame, lives;
+  var alSprite, taSprite, ciSprite;
+  var aliens, dir, tank, bullets, cities;
 
-      function main(){
-        display = new Screen(504, 600);
+  function main(){
+    display = new Screen(504, 600);
 
-        input = new InputHandeler()
+    input = new InputHandeler()
 
-        var img = new Image()
-        img.addEventListener("load", function(){
-          alSprite = [
-          [new Sprite(this, 0, 0, 22, 16), new Sprite(this, 0, 16, 22, 16)],
-          [new Sprite(this, 22, 0, 16, 16), new Sprite(this, 22, 16, 16, 16)],
-          [new Sprite(this, 38, 0, 24, 16), new Sprite(this, 38, 16, 24, 16)]
+    var img = new Image()
+    img.addEventListener("load", function(){
+      alSprite = [
+      [new Sprite(this, 0, 0, 22, 16), new Sprite(this, 0, 16, 22, 16)],
+      [new Sprite(this, 22, 0, 16, 16), new Sprite(this, 22, 16, 16, 16)],
+      [new Sprite(this, 38, 0, 24, 16), new Sprite(this, 38, 16, 24, 16)]
 
-          ]
-          taSprite = new Sprite(this, 62, 0, 22, 16)
-          ciSprite = new Sprite(this, 84, 8, 36, 24)
+      ]
+      taSprite = new Sprite(this, 62, 0, 22, 16)
+      ciSprite = new Sprite(this, 84, 8, 36, 24)
 
-          init()
-          run()
+      init()
+      run()
+    })
+    img.src = "res/invaders.png"
+  }
+
+  function init(){
+    frames = 0;
+    spFrame = 0;
+    lvlFrame = 60;
+    dir = 1;
+    lives = 3
+
+    tank = {
+      sprite: taSprite,
+      x:(display.width - taSprite.w)/2,
+      y: display.height - (30 + taSprite.h)
+    }
+
+    bullets= [];
+
+    cities = {
+      canvas: null,
+      y: tank.y - (30 + ciSprite.h),
+      h: ciSprite.h,
+
+      init: function(){
+        this.canvas = document.createElement("canvas");
+        this.canvas.width = display.width;
+        this.canvas.height = this.h;
+        this.ctx = this.canvas.getContext("2d")
+
+        for(var i = 0; i<4;i++){
+          this.ctx.drawImage(ciSprite.img, ciSprite.x, ciSprite.y, ciSprite.w, ciSprite.h, 68 + 111*i, 0, ciSprite.w, ciSprite.h)
+        }
+      },
+      generateDamage: function(x, y){
+        x = Math.floor(x/2) * 2;
+        y = Math.floor(y/2) * 2;
+
+        this.ctx.clearRect(x-2, y-2, 4, 4)
+        this.ctx.clearRect(x+2, y-4, 2, 4)
+        this.ctx.clearRect(x+4, y, 2, 2)
+        this.ctx.clearRect(x+2, y+2, 2, 2)
+        this.ctx.clearRect(x-4, y+2, 2, 2)
+        this.ctx.clearRect(x-6, y, 2, 2)
+        this.ctx.clearRect(x-4, y-4, 2, 2)
+        this.ctx.clearRect(x-2, y-6, 2, 2)
+      },
+      hits: function(x, y){
+        y -= this.y;
+        var data = this.ctx.getImageData(x, y, 1, 1);
+        if(data.data[3] !== 0){
+          this.generateDamage(x, y);
+          return true
+        }else{
+          return false;
+        }
+      }
+    };
+
+    cities.init()
+
+    aliens = [];
+    var rows = [1, 0, 0, 2, 2];
+    for (var i = 0, len = rows.length; i < len; i++){
+      for(var j = 0; j < 10; j++){
+        var a = rows[i];
+        aliens.push({
+          sprite: alSprite[a],
+          x: 30 + j*30 + [0, 4, 0][a],
+          y: 30 + i*30,
+          w: alSprite[a][0].w,
+          h: alSprite[a][0].h
         })
-        img.src = "res/invaders.png"
+      }
+    }
+  }
+
+  function run(){
+    var loop = function(){
+      update();
+      render();
+
+      window.requestAnimationFrame(loop, display.canvas)
+    }
+    window.requestAnimationFrame(loop, display.canvas)
+  }
+
+  function update(){
+
+
+    if(input.isDown(37)){
+      tank.x -= 4;
+
+    }
+    if(input.isDown(39)){
+      tank.x += 4;
+
+    }
+
+    tank.x = Math.max(Math.min(tank.x, display.width - (30 + taSprite.w)), 30);
+
+    if(input.isPressed(83)){
+      bullets.push(new Bullet(tank.x +10, tank.y, -8, 2, 6, "#fff"))
+    }
+
+    for(var i = 0, len = bullets.length; i<len; i++){
+      var b = bullets[i]
+      b.update();
+
+      if(b.y + b.height < 0 || b.y > display.height){
+        bullets.splice(i, 1);
+        i--;
+        len--;
+        continue;
       }
 
-      function init(){
-        frames = 0;
-        spFrame = 0;
-        lvlFrame = 60;
-        dir = 1;
-        lives = 3
-
-        tank = {
-          sprite: taSprite,
-          x:(display.width - taSprite.w)/2,
-          y: display.height - (30 + taSprite.h)
-        }
-
-        bullets= [];
-
-        cities = {
-          canvas: null,
-          y: tank.y - (30 + ciSprite.h),
-          h: ciSprite.h,
-
-          init: function(){
-            this.canvas = document.createElement("canvas");
-            this.canvas.width = display.width;
-            this.canvas.height = this.h;
-            this.ctx = this.canvas.getContext("2d")
-
-            for(var i = 0; i<4;i++){
-              this.ctx.drawImage(ciSprite.img, ciSprite.x, ciSprite.y, ciSprite.w, ciSprite.h, 68 + 111*i, 0, ciSprite.w, ciSprite.h)
-            }
-          },
-          generateDamage: function(x, y){
-            x = Math.floor(x/2) * 2;
-            y = Math.floor(y/2) * 2;
-
-            this.ctx.clearRect(x-2, y-2, 4, 4)
-            this.ctx.clearRect(x+2, y-4, 2, 4)
-            this.ctx.clearRect(x+4, y, 2, 2)
-            this.ctx.clearRect(x+2, y+2, 2, 2)
-            this.ctx.clearRect(x-4, y+2, 2, 2)
-            this.ctx.clearRect(x-6, y, 2, 2)
-            this.ctx.clearRect(x-4, y-4, 2, 2)
-            this.ctx.clearRect(x-2, y-6, 2, 2)
-          },
-          hits: function(x, y){
-            y -= this.y;
-            var data = this.ctx.getImageData(x, y, 1, 1);
-            if(data.data[3] !== 0){
-              this.generateDamage(x, y);
-              return true
-            }else{
-              return false;
-            }
-          }
-        };
-
-        cities.init()
-
-        aliens = [];
-        var rows = [1, 0, 0, 2, 2];
-        for (var i = 0, len = rows.length; i < len; i++){
-          for(var j = 0; j < 10; j++){
-            var a = rows[i];
-            aliens.push({
-              sprite: alSprite[a],
-              x: 30 + j*30 + [0, 4, 0][a],
-              y: 30 + i*30,
-              w: alSprite[a][0].w,
-              h: alSprite[a][0].h
-            })
-          }
+      var h2 = b.height * 0.5;
+      if(cities.y < b.y + h2 && b.y+h2 < cities.y + cities.h){
+        if (cities.hits(b.x, b.y+h2)){
+          bullets.splice(i, 1);
+          i--;
+          len--;
+          continue;
         }
       }
 
-      function run(){
-        var loop = function(){
-          update();
-          render();
+      if(AABBIntersect(b.x, b.y, b.width, b.height, tank.x, tank.y, tank.sprite.w, tank.sprite.h)){
+        bullets.splice(i, 1);
+        i--;
+        len--;
+        lives -=1
+        $('#lives').text(lives);
 
-          window.requestAnimationFrame(loop, display.canvas)
+        if(lives == 0){
+          $('.gameover').text("Game Over");
+          document.getElementById('play').style.pointerEvents = 'auto';
+          throw new Error();
         }
-        window.requestAnimationFrame(loop, display.canvas)
       }
-
-      function update(){
-
-
-            if(input.isDown(37)){
-              tank.x -= 4;
-
-            }
-            if(input.isDown(39)){
-              tank.x += 4;
-
-            }
-
-            tank.x = Math.max(Math.min(tank.x, display.width - (30 + taSprite.w)), 30);
-
-            if(input.isPressed(83)){
-              bullets.push(new Bullet(tank.x +10, tank.y, -8, 2, 6, "#fff"))
-            }
-
-            for(var i = 0, len = bullets.length; i<len; i++){
-              var b = bullets[i]
-              b.update();
-
-              if(b.y + b.height < 0 || b.y > display.height){
-                bullets.splice(i, 1);
-                i--;
-                len--;
-                continue;
-              }
-
-              var h2 = b.height * 0.5;
-              if(cities.y < b.y + h2 && b.y+h2 < cities.y + cities.h){
-                if (cities.hits(b.x, b.y+h2)){
-                  bullets.splice(i, 1);
-                  i--;
-                  len--;
-                  continue;
-                }
-              }
-
-              if(AABBIntersect(b.x, b.y, b.width, b.height, tank.x, tank.y, tank.sprite.w, tank.sprite.h)){
-                bullets.splice(i, 1);
-                i--;
-                len--;
-                lives -=1
-                $('#lives').text(lives);
-
-                if(lives == 0){
-                  $('.gameover').text("Game Over");
-                  document.getElementById('play').style.pointerEvents = 'auto';
-                  throw new Error();
-                }
-              }
-              for(var j = 0, len2 = aliens.length; j<len2; j++){
-                var a = aliens[j]
-                if(AABBIntersect(b.x, b.y, b.width, b.height, a.x, a.y, a.w, a.h)){
-                  aliens.splice(j, 1);
-                  j--;
-                  len2--;
-                  bullets.splice(i, 1);
-                  i--;
-                  len--;
-                  if(len2 == 0){
-                    $('.gameover').text("You Win");
-                    document.getElementById('play').style.pointerEvents = 'auto';
-                    throw new Error();
-                  }
-
-                  switch(len2){
-                    case 30: {
-                      this.lvlFrame = 40;
-                      break;
-                    }
-                    case 10:{
-                      this.lvlFrame = 20;
-                      break;
-                    }
-                    case 5:{
-                      this.lvlFrame = 10;
-                      break;
-                    }
-                    case 1:{
-                      this.lvlFrame = 8;
-                      break;
-                    }
-                  }
-                }
-              }
-            }
-
-            if(Math.random() < 0.03 && aliens.length >0){
-              var a = aliens[Math.round(Math.random()*(aliens.length-1))]
-              for(var i = 0, len = aliens.length; i<len; i++){
-                var b = aliens[i]
-
-                if(AABBIntersect(a.x, a.y, a.w, 100, b.x, b.y, b.w, b.h )){
-                  a = b
-                }
-              }bullets.push(new Bullet(a.x + a.w*0.5, a.y + a.h, 4, 2, 4, "#fff"))
-            }
-
-
-            frames++
-            if(frames % lvlFrame === 0){
-              spFrame = (spFrame +1) %2
-
-              var _max = 0, _min = display.width
-              for(var i = 0, len = aliens.length; i<len; i++){
-                var a = aliens[i];
-                a.x += 30 * dir;
-
-                _max = Math.max(_max, a.x + a.w);
-                _min = Math.min(_min, a.x);
-              }
-              if(_max > display.width - 30 || _min < 0){
-                dir *= -1
-                for(var i = 0, len = aliens.length; i<len; i++){
-                  aliens[i].x += 30 * dir;
-                  aliens[i].y += 30;
-                }
-              }
-            }
+      for(var j = 0, len2 = aliens.length; j<len2; j++){
+        var a = aliens[j]
+        if(AABBIntersect(b.x, b.y, b.width, b.height, a.x, a.y, a.w, a.h)){
+          aliens.splice(j, 1);
+          j--;
+          len2--;
+          bullets.splice(i, 1);
+          i--;
+          len--;
+          if(len2 == 0){
+            $('.gameover').text("You Win");
+            document.getElementById('play').style.pointerEvents = 'auto';
+            throw new Error();
           }
 
-          function render(){
-            display.clear()
-            for (var i = 0, len = aliens.length; i < len; i++){
-              var a = aliens[i];
-              display.drawSprite(a.sprite[spFrame], a.x, a.y)
+          switch(len2){
+            case 30: {
+              this.lvlFrame = 40;
+              break;
             }
+            case 10:{
+              this.lvlFrame = 20;
+              break;
+            }
+            case 5:{
+              this.lvlFrame = 10;
+              break;
+            }
+            case 1:{
+              this.lvlFrame = 8;
+              break;
+            }
+          }
+        }
+      }
+    }
+
+    if(Math.random() < 0.03 && aliens.length >0){
+      var a = aliens[Math.round(Math.random()*(aliens.length-1))]
+      for(var i = 0, len = aliens.length; i<len; i++){
+        var b = aliens[i]
+
+        if(AABBIntersect(a.x, a.y, a.w, 100, b.x, b.y, b.w, b.h )){
+          a = b
+        }
+      }bullets.push(new Bullet(a.x + a.w*0.5, a.y + a.h, 4, 2, 4, "#fff"))
+    }
+
+
+    frames++
+    if(frames % lvlFrame === 0){
+      spFrame = (spFrame +1) %2
+
+      var _max = 0, _min = display.width
+      for(var i = 0, len = aliens.length; i<len; i++){
+        var a = aliens[i];
+        a.x += 30 * dir;
+
+        _max = Math.max(_max, a.x + a.w);
+        _min = Math.min(_min, a.x);
+      }
+      if(_max > display.width - 30 || _min < 0){
+        dir *= -1
+        for(var i = 0, len = aliens.length; i<len; i++){
+          aliens[i].x += 30 * dir;
+          aliens[i].y += 30;
+        }
+      }
+    }
+  }
+
+  function render(){
+    display.clear()
+    for (var i = 0, len = aliens.length; i < len; i++){
+      var a = aliens[i];
+      display.drawSprite(a.sprite[spFrame], a.x, a.y)
+    }
 
             // for(i = 0, len = lives; i<len; i++){
             //  console.log(i, lives)
@@ -365,8 +360,17 @@
             </div>  
           </section>
 
+          <section class="clutch_gaming">
+            <h1>Clutch Gaming</h1>
+            <p>The next project I am currenlty working on is something I am really interested in, it is a site for competitive gaming where you can register your team to leagues and tournaments and challenge others in your favourite games. I am currently doing research on what technologies to use, and researching real time servers like Firebase.</p>
+
+            <div class="projects clutch">
+
+            </div>
+          </section>
+
+
         </div>
         <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-
       </body>
       </html>

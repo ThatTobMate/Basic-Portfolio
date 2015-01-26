@@ -712,7 +712,6 @@ dt {
   max-width: 650px;
   margin: 0 auto;
   padding: 0 10px;
-  background: blue;
   margin: 6px auto;
 }
 #header nav li {
@@ -839,6 +838,27 @@ section #title .credits.right {
 .pong{
   position: absolute;
   bottom: -900px;
+}
+
+.clutch{
+  background: url('../images/fist.jpg');
+  background-size: 100% 100%;
+}
+
+.clutch_gaming{
+  position: absolute;
+  bottom: -2200px;
+}
+
+.contact{
+  width: 40%;
+  margin: 0 auto;
+  margin-left: 38%;
+}
+
+.contacticon{
+  display: inline-block;
+  margin-right: 30px;
 }
 
     canvas{
