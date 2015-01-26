@@ -849,8 +849,8 @@ section #title .credits.right {
   }
   .gameover{
     position: absolute;
-    left: 400px;
-    bottom: -400px;
+    left: 280px;
+    bottom: -500px;
     z-index: 1;
     color: white;
     font-family: 'VT323';
