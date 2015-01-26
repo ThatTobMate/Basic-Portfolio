@@ -1,0 +1,175 @@
+#canvas{
+  border:3px solid white; 
+  background-image: url('../images/court.jpg'); 
+  background-size: cover;
+  background-position: center center; 
+  background-repeat: none;
+}
+
+
+#container{
+  height: 90%;
+  width: 90%;
+  margin: 0 auto;
+  position: absolute;
+  top: 200px;
+}
+
+#main{
+  text-align: center;
+  width: 100%;
+  background-color: rgba(246, 250, 248, 0.0);
+  height: 20px;
+  display: inline-block;
+  vertical-align: top;
+  border:none;
+  position: absolute;
+  left: -10px;
+  top: 90px;
+}
+#main h1{
+  font-family: 'Lobster Two', cursive;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+#main h3{
+  font-size: 15px;
+  margin-top: 70px;
+}
+
+#notice{
+  display: none;
+}
+
+#rally_score{
+  top: 135px;
+  left: -80px;
+  font-size: 30px;
+  position: absolute;
+  text-align: center;
+  color: white
+}
+
+#main span{
+  font-size: 15px;
+  color: white;
+}
+
+
+#left_move{
+  width: 30%;
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  background: rgba(246, 250, 248, 0.0);
+  color: rgba(246, 250, 248, 0.0);
+  border: none;
+  bottom: 0;
+  text-align: center;
+}
+
+#right_move{
+  text-align: center;
+  width: 30%;
+  height: 100%;
+  background: rgba(246, 250, 248, 0.0);
+  color: rgba(246, 250, 248, 0.0);
+  border: none;
+  display: inline-block;
+  position: absolute;
+  left: 255;
+  bottom: 0;
+}
+
+#start{
+  position: absolute;
+  left: 650px;
+  top: 215px;
+}
+
+
+a {
+  color: #00B7FF;
+}
+
+/*iPhone6*/
+@media screen and (max-width: 736px) {
+  #canvas{
+    margin-left: -23.5px;
+    margin-top: 20px;
+    width: 110%;
+    height: 100%;
+  }
+  #main{
+    text-align: center;
+
+    width: 100%;
+    background-color: rgba(246, 250, 248, 0.0);
+    height: 20px;
+    display: inline-block;
+    vertical-align: top;
+    border:none;
+    font-family: 'Lobster Two', cursive;
+    position: absolute;
+    left: -80px;
+    top: 90px;
+  }
+  #main h1{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+  }
+  #main h3{
+    font-size: 15px;
+    margin-top: 70px;
+  }
+
+  #notice{
+    display: none;
+  }
+
+  #rally_score{
+    position: absolute;
+    left: 150;
+    top: 320;
+    text-align: center;
+    color: white;
+  }
+
+  #main span{
+    font-size: 15px;
+    color: white;
+  }
+
+
+  #left_move{
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    background: rgba(246, 250, 248, 0.0);
+    color: rgba(246, 250, 248, 0.0);
+    border: none;
+    bottom: 0;
+    text-align: center;
+  }
+  #start{
+  display: none;
+  }
+  #right_move{
+    text-align: center;
+    width: 30%;
+    height: 100%;
+    background: rgba(246, 250, 248, 0.0);
+    color: rgba(246, 250, 248, 0.0);
+    border: none;
+    display: inline-block;
+    position: absolute;
+    left: 255;
+    bottom: 0;
+  }
+
+}
