@@ -60,17 +60,17 @@
         <p>I started my journey as a developer in June 2014 by completing a 3 month web development course at General Assembly. I followed this up by joining GA as a Teaching Assistant on the next course. I quickly found just how exciting it is being faced with new challenges and trying to come up with solutions to fix problems, not just on your own but also within a great community. I am really excited to get some commercial experience as a developer and work with a great team to help bring my skills forward and be a part of something that millions of people use. Scroll down to view a few of my projects to date:</p>
       </section>
 
-      
+
       <h1>KickAbout!</h1>
       <p>My final project during the course, this is a football based application where the user can create or join a team and send challenges to other teams in the league to meet up and play a real match and record the results. Created using Ruby on Rails and AngularJS. Click the image to try it out.</p>
       <a href="http://immense-headland-7953.herokuapp.com/" target="_blank"><section class="projects kickabout">
-        
+
       </section></a>
       <br>
       <h1>Reader</h1>
       <p>This application I created as my second project on the course, it is an RSS reading application where the user can log in, subscribe to news feeds and read articles or bookmark them to read later. Created using Ruby on Rails. Click the image to try it out.</p>
       <a href="https://mighty-castle-2789.herokuapp.com/" target="_blank"><section class="projects reader">
-        
+
       </section></a>
 
       <br>
@@ -113,7 +113,7 @@
         lvlFrame = 60;
         dir = 1;
         lives = 3
-        
+
         tank = {
           sprite: taSprite,
           x:(display.width - taSprite.w)/2,
@@ -192,20 +192,6 @@
 
       function update(){
 
-            // window.ondeviceorientation = function(event) {
-            //   alpha = Math.round(event.alpha);
-            //   beta = Math.round(event.beta);
-            //   gamma = Math.round(event.gamma);
-
-            //   if(gamma > 10){
-            //    tank.x -= 4;
-            //   }else if(gamma < -10){
-            //    tank.x += 4;
-            //   }
-            // }
-
-            // window.ondeviceorientation()
-
 
             if(input.isDown(37)){
               tank.x -= 4;
@@ -218,7 +204,7 @@
 
             tank.x = Math.max(Math.min(tank.x, display.width - (30 + taSprite.w)), 30);
 
-            if(input.isPressed(32)){
+            if(input.isPressed(83)){
               bullets.push(new Bullet(tank.x +10, tank.y, -8, 2, 6, "#fff"))
             }
 
@@ -381,6 +367,6 @@
 
         </div>
         <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-        
+
       </body>
       </html>
