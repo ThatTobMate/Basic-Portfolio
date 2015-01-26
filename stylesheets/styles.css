@@ -823,6 +823,7 @@ section #title .credits.right {
 .projects{
   height: 450px;
   width: 100%;
+  margin-top: 30px;
 }
 
 .kickabout{
@@ -846,10 +847,13 @@ section #title .credits.right {
     .life_text{
     width: 150px;
     margin: 0 auto;
+    position: absolute;
+    left: -50px;
+    bottom: -350px;
   }
   .gameover{
     position: absolute;
-    left: 280px;
+    left: 270px;
     bottom: -500px;
     z-index: 1;
     color: white;
