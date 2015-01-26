@@ -849,17 +849,17 @@ section #title .credits.right {
   }
   .gameover{
     position: absolute;
-    left: 480px;
+    left: 400px;
+    bottom: -400px;
     z-index: 1;
-    top: 700px;
     color: white;
     font-family: 'VT323';
     font-size: 50px;
   }
   #play{
     position: absolute;
-    left: 900px;
-    top: 550px;
+    left: 700px;
+    bottom: -400px;
   }
 
 @media print, screen and (max-width: 720px) {
