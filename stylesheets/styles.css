@@ -892,13 +892,9 @@ canvas{
 }
 
 .me{
-  position: absolute;
-  left: -250px;
-  top: 180px;
-  width: 35%;
-  height: 450px;
-  background: url("../images/cartoontest.jpg");
-  background-size: 100% 100%;
+  top: -140px;
+  left: 30px;
+  position:relative;
 
 }
 
