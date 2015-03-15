@@ -1,6 +1,8 @@
 $(function(){
   canvas = document.getElementById('canvas');
 
+  console.log("LOADED")
+
 $('#canvas').on('touchstart', function(){
   document.getElementById('canvas').style.pointerEvents = 'none'; 
   init()
