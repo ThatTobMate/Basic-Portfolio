@@ -4,16 +4,47 @@
   background-size: cover;
   background-position: center center; 
   background-repeat: none;
-  left: 80px;
+  margin-bottom: 30px;
 }
 
+.can{
+  padding-top: 35px;
+}
+
+.ruby{
+  padding-top: 50px;
+}
+
+#portfolio{
+  height: 1200px;
+  background: light-gray;
+
+}
+
+#technologies{
+  background: white;
+  margin-bottom: -100px;
+}
+
+canvas{
+  background-color: #000;
+  display: block;
+  position: relative;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+#placed{
+  width: 504px;
+  height: 600px;
+  background: url('../images/space_start.jpg');
+  background-position: center;
+  margin-bottom: 30px;
+}
 
 #container{
-  height: 90%;
-  width: 90%;
-  margin: 0 auto;
-  position: absolute;
-  top: 200px;
+  
 }
 
 #main{
@@ -21,12 +52,11 @@
   width: 100%;
   background-color: rgba(246, 250, 248, 0.0);
   height: 20px;
-  display: inline-block;
   vertical-align: top;
-  border:none;
+  border: none;
   position: absolute;
-  left: 30px;
-  top: 90px;
+  left: 0px;
+  top: 230px;
 }
 #main h1{
   font-family: 'Lobster Two', cursive;
@@ -40,16 +70,18 @@
 }
 
 #notice{
-  display: none;
+  position: absolute;
+    left: 620px;
+    width: 300px;
+    top: 300px;
 }
 
 #rally_score{
-  top: 135px;
+  top: 150px;
   left: -80px;
   font-size: 30px;
   position: absolute;
   text-align: center;
-  color: white
 }
 
 #main span{
@@ -58,38 +90,35 @@
 }
 
 
-#left_move{
-  width: 30%;
-  height: 100%;
-  display: inline-block;
-  position: absolute;
-  left: 0;
-  background: rgba(246, 250, 248, 0.0);
-  color: rgba(246, 250, 248, 0.0);
-  border: none;
-  bottom: 0;
-  text-align: center;
-}
 
-#right_move{
-  text-align: center;
-  width: 30%;
-  height: 100%;
-  background: rgba(246, 250, 248, 0.0);
-  color: rgba(246, 250, 248, 0.0);
-  border: none;
-  display: inline-block;
+.life_text{
+  display: none;
+  /*display: block;*/
   position: absolute;
-  left: 255;
-  bottom: 0;
+  left: -120px;
+  bottom: 360px;
 }
 
 #start{
   position: absolute;
-  left: 650px;
-  top: 215px;
+  left: 720px;
+  top: 370px;
 }
 
+#play{
+  position: absolute;
+  top: 450px;
+  left: 700px;
+}
+
+.gameover{
+  position: absolute;
+  bottom: 300px;
+  left: 280px;
+  color: white;
+  font-family: 'VT323';
+  font-size: 50px;
+}
 
 a {
   color: #00B7FF;

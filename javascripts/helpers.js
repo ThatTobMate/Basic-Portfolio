@@ -23,8 +23,8 @@ function Screen(width, height){
 	this.canvas.width = this.width = width;
 	this.canvas.height = this.height = height;
 	this.ctx = this.canvas.getContext("2d");
-
-	document.body.appendChild(this.canvas);
+	placed = document.getElementById("placed")
+	placed.appendChild(this.canvas);
 };
 
 Screen.prototype.clear = function(){
