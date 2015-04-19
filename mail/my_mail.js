@@ -16,7 +16,7 @@ sendForm = function(){
     data: dataHash
   }).always(function(){
     console.log('done')
-    $('form').reset()
+    $('form')[0].reset()
   })
 }
 
