@@ -14,8 +14,9 @@ sendForm = function(){
     method: 'POST',
     dataType: 'json',
     data: dataHash
-  }).success(function(){
+  }).always(function(){
     console.log('done')
+    $('form').reset()
   })
 }
 
