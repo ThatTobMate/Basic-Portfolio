@@ -16,6 +16,7 @@ sendForm = function(){
     data: dataHash
   }).always(function(){
     console.log('done')
+    $('#success > .alert-danger').append("<strong>Thank you "+ $('#name').val()+", your message has been sent. I will get back to you as soon as possible!");
     $('form')[0].reset()
   })
 }
