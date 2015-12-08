@@ -16,7 +16,7 @@
 }
 
 #portfolio{
-  height: 1200px;
+  min-height: 1200px;
   background: light-gray;
 
 }
